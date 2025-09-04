@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Student Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #1a1a1a, #111);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #20c997;
+      box-shadow: 0 0 20px rgba(32,201,151,0.5);
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 2.5rem;
+      color: #20c997;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #20c997;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #00e6aa;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.6);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px rgba(32,201,151,0.4);
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111;
+      margin-top: 40px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #20c997;
+      color: #0d0d0d;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+    a.button:hover {
+      background: #00e6aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="c:\Users\Hp\Downloads\download.webp" alt="logo of Institute">
+    <h1>Hello! I'm HIMANSU</h1>
+    <p>A curious student who loves to learn 📚✨</p>
+  </header>
+
+  <!-- Sticky Nav -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#activities">Activities</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <div id="about" class="card">
+      <h2>About Me</h2>
+      <p>I am a student currently studying in E section of IX.th standard in APS Hisar. I enjoy learning new things, solving problems, and exploring creative ideas.</p>
+    </div>
+
+    <div id="subjects" class="card">
+      <h2>Favorite Subjects</h2>
+      <ul>
+        <li>Mathematics</li>
+        <li>Science</li>
+        <li>Languages</li>
+        <li>Robotics</li>
+        <li>Computing</li>
+      </ul>
+    </div>
+
+    <div id="activities" class="card">
+      <h2>My Activities</h2>
+      <p>I love participating in school projects, reading books, and improving my skills every day.</p>
+    </div>
+
+    <div id="contact" class="card">
+      <h2>Contact</h2>
+      <p>City/School: APS Hisar, Haryana, INDIA 🇮🇳</p>
+      <p>Portfolio: <a href="c:\Users\Hp\Desktop\portfolio.html">Check out my Portfolio</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 HIMANSU | Made with ❤️ in 🇮🇳</p>
+  </footer>
+</body>
+</html>
